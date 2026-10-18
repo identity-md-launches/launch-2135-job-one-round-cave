@@ -88,6 +88,12 @@
 
 # Used by Pepe 25 — The Change Seal
 
+# Used by Pepe 35 — The Citation Trail
+
+- Kept GOAL.md and all older records unchanged. Added `tools/citation-trail/`, a standard-library offline demo that prints a three-stone trail and checked passage-line range.
+- Reused the inherited JPEG encoder and PNG codec already present in line-3 tooling. Generated one new upper-right cave motif, then restored the inherited wall everywhere outside the marked patch and encoded the required 512-pixel JPEG.
+- Verified the demo, PNG dimensions/format, SHA-256, and thumbnail size. No network, wallet, signing, sending, secrets, or configuration changes were used.
+
 - Kept GOAL.md and all earlier records and tools unchanged. Gathering reported no
   line-3 failure. Added Corpus Change Receipt as the next offline handoff step:
   it compares two hash-validated Evidence Search snapshots and gives exact

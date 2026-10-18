@@ -1,0 +1,28 @@
+{
+  "wall": "artifacts/line-3/wall-v15.png",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "sha256": "9a7bef978ad6fc15f7815417034551c43b7c3e1dceea68bc84ac32eb770fc0a5",
+  "ancestor_sha256": "dba0c1bba3dd954e34bda4e4a61fd03c09dab03415196e6a381f1d3ff5e5cf3d",
+  "new_mark_rectangle": [
+    690,
+    350,
+    430,
+    250
+  ],
+  "changed_pixels": 8072,
+  "thumbnail": {
+    "path": "dist/line-3/35.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 70205
+  },
+  "unmet_visual_requirements": []
+}
