@@ -1,0 +1,54 @@
+{
+  "round": 35,
+  "ancestorSha256": "4105098ab30a8ea1f9c662d4620dc1f103876f35d97873536699c8be33078a4a",
+  "wallSha256": "8716d19560c0ce3a40baef2c907c3421865ab2791971230967024ef1e6b9f41b",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "channels": "RGB",
+  "newMarkRectangle": [
+    1040,
+    890,
+    145,
+    135
+  ],
+  "changedPixels": 1726,
+  "changedPixelsOutsideRectangle": 0,
+  "method": "Installed image edit was inspected; final pigment was isolated to the declared unused-rock rectangle and composited over wall-v14.",
+  "visualReview": "Pepe retains heavy-lidded eyes, broad mouth, and two five-digit hands; warm rough rock, cracks, crystals, framing and ancestral marks remain. New mark is three worn ochre strokes converging on a chalk dot. No letters, numbers, captions, signatures, logos, watermarks, borders, real people or forbidden symbols observed.",
+  "unmetVisualRequirements": [],
+  "images": [
+    {
+      "path": "artifacts/line-2/wall-v15.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3949302,
+      "sha256": "8716d19560c0ce3a40baef2c907c3421865ab2791971230967024ef1e6b9f41b"
+    },
+    {
+      "path": "artifacts/line-2/wall.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3949302,
+      "sha256": "8716d19560c0ce3a40baef2c907c3421865ab2791971230967024ef1e6b9f41b"
+    },
+    {
+      "path": "dist/line-2/35.jpg",
+      "format": "JPEG",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 77831,
+      "sha256": "fb586fc8d71bc47ad981373b3d2f980f30329749ee901e0d205dfcc292c92ca2"
+    }
+  ]
+}

@@ -240,3 +240,17 @@
 - No key, wallet, secret, environment discovery, signature, transaction,
   deployment, payment or posting operation. No generated file outside this
   workspace was read. See ROUND-34.md and REVIEW-34.json for delivery limits.
+
+# Used in round 35
+
+- Preserved GOAL.md byte-for-byte, all ancestor tools/fixtures and all 34
+  numbered records. Read gathering/REPORT.md; no line-2 failure was reported.
+- Added Proof Receipt, which verifies through unchanged Storage Fields before
+  emitting a deterministic digest over proven state, decoded fields and the
+  caller-reviewed layout fingerprint. Five focused tests and the real historical
+  ZTO/IMD demo passed; no new dependency or coin was needed.
+- Used the installed image tool to inspect an edit of wall-v14. The final
+  three-stroke mark is isolated to [1040,890,145,135]; wall-v14 is unchanged
+  outside that rectangle. The inherited PNG codec and JPEG encoder were reused.
+- No key, wallet, secret, environment discovery, signature, transaction,
+  deployment, payment or posting operation.
