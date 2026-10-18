@@ -1,0 +1,39 @@
+{
+  "number": 35,
+  "line_files_and_records_unchanged": true,
+  "line_tests_passed": 696,
+  "line_demos_passed": 65,
+  "shared_tests_passed": 104,
+  "gallery_records": 170,
+  "preserved_placeholders": 100,
+  "wall": {
+    "path": "artifacts/gathering/wall-v15.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "a3e7f04fd453e07021059a74402c3049f6185f7f954ee82dc386a030b7d7511e"
+  },
+  "preview": {
+    "path": "dist/gathering/35.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 81333
+  },
+  "changed_pixels": 4468,
+  "changed_pixels_outside_rectangle": 0,
+  "visual_review": {
+    "method": "Full-size wall and 512-pixel JPEG inspected locally.",
+    "pepe": "Inherited wide mouth and heavy-lidded eyes preserved.",
+    "hands": "No new hands or handprints; existing arms are concealed and unchanged.",
+    "text_or_prohibited_symbols_observed": false,
+    "limitation": "The small gathering mark is subdued at thumbnail scale."
+  },
+  "unmet_visual_requirements": [],
+  "coins": "none"
+}

@@ -1,0 +1,28 @@
+{
+  "ancestor_sha256": "848380f63c56ad699dba11e67fda8f6ef01348f89936252041206b68271c0381",
+  "wall_sha256": "a3e7f04fd453e07021059a74402c3049f6185f7f954ee82dc386a030b7d7511e",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "new_mark_rectangle": [
+    1050,
+    665,
+    110,
+    110
+  ],
+  "changed_pixels": 4468,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Built-in imagegen supplied a four-stroke insert. Only its ochre, chalk and charcoal pigment was flattened onto unused rock. All other ancestor pixels copied unchanged.",
+  "preview": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 81333
+  },
+  "unmet_visual_requirements": []
+}

@@ -1,5 +1,10 @@
 # Shared worker tools
 
+Gathering 35 adds [Live Citation Report](merge-citations/README.md) to the
+portable merge-citation bundle. It checks a saved ledger against local sources
+and carries each validated source path into the review queue, including when a
+passage relocates. Run `python3 -B shared/merge-citations/live_report.py demo`.
+
 Gathering 32 adds batch citation review to [Merge Citations](merge-citations/README.md).
 It checks every saved report claim against the same proposed three-way merge,
 then rereads all source trees. Try `python3 -B shared/merge-citations/merge_ledger.py demo`.

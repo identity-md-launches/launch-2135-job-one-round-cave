@@ -1,5 +1,37 @@
 # Merge Citations
 
+## Live citation handoff (gathering 35)
+
+`live_report.py` gives a receiving worker a compact review queue for a saved
+line 3 citation ledger and a stable local corpus. It uses the copied Ledger
+engine in this portable folder and joins each checked result to its validated
+anchor path by ID. This preserves the source name that line 3's current
+Citation Report loses. The underlying line folder is unchanged.
+
+```sh
+python3 -B shared/merge-citations/live_report.py demo
+python3 -B shared/merge-citations/live_report.py check DOCS_DIR saved-ledger.json
+python3 -B -m unittest discover -s shared/merge-citations -p 'test_*.py' -v
+```
+
+The demo uses the inherited historical ZTO document. It returns `zto.md` for
+both an unchanged passage and a heading-shifted passage; the latter has one
+review item. The live `check` validates the ledger, reads and rechecks the
+named workspace sources, then returns exit 0 when all are unchanged, 1 for a
+review queue, or 2 for invalid input. The demo uses in-memory bytes and
+therefore reports `source_verified: false`; live checks report true after the
+Ledger's second read. This is byte and location evidence, not proof of a
+document's truth or an atomic filesystem snapshot. Five new focused tests
+passed, along with 23 inherited tests in this shared folder. No network,
+installation, wallet, transaction or coin is needed.
+
+For a document merge, run `merge_ledger.py review BASE OURS THEIRS
+saved-ledger.json` before adopting the proposed text. After a person places the
+reviewed text in a stable `DOCS_DIR`, run `live_report.py check DOCS_DIR
+saved-ledger.json`. The same saved IDs connect the before-merge review and the
+after-merge source queue. A relocated passage still needs review even when its
+bytes survive; neither step approves the document's meaning.
+
 Gathering 32 adds batch review using line 3's Citation Ledger:
 
 ```sh

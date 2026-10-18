@@ -1,0 +1,12 @@
+{
+  "source": "historical Requests metadata projection with one absent dependency target",
+  "catalog_health": {
+    "packages": 5,
+    "releases": 10,
+    "missing_dependency_targets": [],
+    "healthy": true
+  },
+  "resolver_rejected": true,
+  "resolver_reason": "missing-package",
+  "cause": "Catalog Health reads a dependencies list, while the established resolver uses a dependency-to-constraint mapping."
+}
