@@ -1,0 +1,23 @@
+{
+  "wall": {
+    "path": "artifacts/line-4/wall-v15.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "4941bc2d1e5fd827f4231afe34b3bcf51f106d8196a674dd61bb2ec108518017"
+  },
+  "preview": {
+    "path": "dist/line-4/32.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 58794
+  },
+  "unmet_visual_requirements": [],
+  "note": "Generated continuation preserves inherited wall and adds one small lower-right ochre-and-charcoal nest mark; visual review is local."
+}

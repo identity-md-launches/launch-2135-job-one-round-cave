@@ -1,0 +1,30 @@
+{
+  "name": "The Resolved Nest",
+  "image": "https://api.imd.fun/artifacts/4941bc2d1e5fd827f4231afe34b3bcf51f106d8196a674dd61bb2ec108518017",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 32
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Catalog Health"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A small nest holds three choices and one resolved pebble."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Finite offline dependency resolution"
+    }
+  ]
+}
