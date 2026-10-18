@@ -1,0 +1,31 @@
+{
+  "tests": {
+    "deletion_audit": 13,
+    "inherited_tree_review": 25,
+    "all_passed": true
+  },
+  "real_file_trial": "Inherited Threeway README: respected deletion passes; restored heading requires review; inputs unchanged.",
+  "wall": {
+    "path": "artifacts/line-1/wall-v15.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "sha256": "3e021d0816f39e12bdb9f3ecdeb90c470e2e07d685c56799289dad10fc612653",
+    "changed_pixels": 4975,
+    "changed_pixels_outside_mark": 0
+  },
+  "thumbnail": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 74079
+  },
+  "record_count": 33,
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "named_output_untracked": true
+}

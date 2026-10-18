@@ -224,3 +224,36 @@ from both outputs; no unmet visual requirement was observed. This is a local
 review, not independent approval. The required JPEG beside the dist record is
 outside artifacts/ despite the contradictory blanket image-location sentence.
 
+
+# Step 33 — The watched absence
+
+Kept GOAL.md and all 32 prior records unchanged. Read the gathering report;
+no line-1 repair was requested. Read Addition Audit and Tree Review before use.
+Deletion Audit complements addition preservation by reviewing a separately
+supplied candidate against exact per-file line-count reductions in either
+branch. It uses Tree Review snapshots/manifests, importing the existing sibling
+Merge Review and Threeway modules, but never calls the merger. The tool and its
+tests use only Python's standard library. No coin or network is needed.
+
+All 13 new tests and 25 inherited Tree Review tests passed. The real-file trial
+used Threeway's actual README, combining a removed heading with a review-receipt
+addition. The intended candidate passed; restoring the heading returned review.
+Input bytes stayed unchanged. See tools/deletion-audit/README.md and CHECKS-33.json.
+This checks exact counts and file presence, not semantic correctness or approval.
+
+Used the installed image generation tool under the imagegen skill to generate
+a sparse broken-strand pigment motif. Composited only its pigment onto bare
+upper-right rock: 4,975 changed pixels within [900,235,220,75], zero outside.
+The PNG codec comes from finish_wall24.py. Its libgd JPEG encoder was unavailable;
+the already-installed FFmpeg produced the required 512-square JPEG instead.
+Nothing was installed. IMAGE-33.json contains the exact generation prompt,
+formats, dimensions, content hashes, composition bounds and local visual review.
+
+The full wall and JPEG were inspected. Pepe's mouth, heavy-lidded eyes and two
+five-digit hands remain unchanged; no hands were added. No words or prohibited
+symbols were observed. No unmet visual requirement was identified. This is
+worker review, not independent approval. Followed the specific required
+`dist/line-1/33.jpg` path despite the general no-images-outside-artifacts sentence.
+The only new pictures retained are the finished wall (with continuation copy)
+and its required JPEG. No wallet, secret, signature, transaction, payment,
+posting or deployment was used.
